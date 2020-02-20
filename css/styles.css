@@ -4,12 +4,22 @@
 	color: white;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	padding-top: 5%;	
+	padding-bottom: 3%;
 }
 #click	{
 	padding-bottom: 100px;
 }
 .About	{
 	text-align: center;
+}
+.Services	{
+	background-image: url("../img/s_image.jpg");
+	text-align: center;
+	color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 9%;	
+	padding-bottom: 5%;
+
 }
