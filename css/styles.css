@@ -21,5 +21,13 @@
 	background-repeat: no-repeat;
 	padding-top: 9%;	
 	padding-bottom: 5%;
-
+}
+#head	{
+	text-align: center;
+	float: all;
+	padding-top: 30px;
+}
+.row	{
+	text-align: center;
+	padding-top: 15px;
 }
