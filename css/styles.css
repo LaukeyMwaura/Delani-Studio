@@ -27,7 +27,29 @@
 	float: all;
 	padding-top: 30px;
 }
-.row	{
-	text-align: center;
-	padding-top: 15px;
+.part1	{
+	margin-right: 30px;
+	padding-right: 100px
 }
+/* #space1	{
+	margin-right: 5%;
+	padding-right: 20%;
+	padding-left: 8px;
+	float: left;
+
+}
+#space2	{
+	margin-left: 35px;
+	padding-left: 15px;
+	margin-right: 20px;
+}
+#space3	{
+	margin-left: 25px;
+	padding-left: 15px;
+	margin-right: 20px;
+}
+#space4	{
+		margin-left: 25px;
+	padding-left: 15px;
+	margin-right: 20px;
+} */
