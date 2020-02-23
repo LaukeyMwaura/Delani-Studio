@@ -68,15 +68,11 @@
 .date  {
 	padding-top: 50px;
 }
-.hiding	{
-	display: none;
-	display: block;
-}
 .font	{
 	font-family: 'Roboto', ;
 	font-family: 'PT Sans', ;
 	size: 6pc;
 }
-.hover {
-		text-decoration: underline;
-	}
+.showing1	{
+	display: none;
+}
