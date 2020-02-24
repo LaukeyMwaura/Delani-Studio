@@ -1,4 +1,4 @@
-# Akan-Names
+# DELANI STUDIO
 #### This is My profile if you need a web Developer, 17/02/2020
 <a href="https://github.com/LaukeyMwaura/Delani-Studio"></a>
 
