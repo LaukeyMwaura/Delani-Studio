@@ -2,7 +2,7 @@
 #### This is My profile if you need a web Developer, 17/02/2020
 <a href="https://github.com/LaukeyMwaura/Delani-Studio"></a>
 
-<a href="https://laukeymwaura.github.io/akan-day-of-birth-generator/"></a>
+<a href="https://laukeymwaura.github.io/Delani-Studio/"></a>
 ## Description
 A web application that takes a ``user's birthday`` , calculates the`` day of the week `` they were born and depending on their gender outputs their ``Akan Name``.
 
@@ -28,24 +28,10 @@ Victor Mburu Mwaura-Lead Web developer
 7.Create a Pull Request
 
 
-## BDD
-|  Input |Description|
-|  :---       |     ---:    |
-|Year   | The year of the user's birth , ``eg.1997``|
-|Month  | The month of the year ``eg.7th month` |
-|Date   | Thw day of the month ``eg.29th``  |
-
-
-|  Output	|	Description	|
-|	:---				|				---:	|
-|	Day of birth	|	The day of the week that the user was born ``eg. Tuesday``	|
-|	Akan name 		|	The corresponding Akan name for the user ``eg. Kofi``	|
-|		|			|
-
 ## Technologies used.
 *html5
 *CSS
-*Javascript
+*Javascript/JQuery
 *Bootstrap
 *Markdown
 
