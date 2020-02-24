@@ -83,3 +83,15 @@
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 } */
+.text	{
+	display: none;
+}
+.showing1	{
+	display: none;
+}
+.showing2		{
+	display: none;
+}
+.hiding3	{
+	display: none;
+}

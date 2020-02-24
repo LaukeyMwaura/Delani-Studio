@@ -1,113 +1,78 @@
-// $(document).ready(function () {
-//   $("span#design").click(function () {
-//     $("showing1").toggle();
-//     $(".hiding1").toggle();
-//   });
-// });
-// $(document).ready(function () {
-//   $("span#dev").click(function () {
-//     $("showing2").toggle();
-//     $(".hiding2").toggle();
-//   });
-// });
-// $(document).ready(function () {
-//   $("span#pro").click(function () {
-//     $(".showing3").toggle();
-//     $(".hiding3").toggle();
-//   });
-// });
-// $(document).ready(function () {
+  $(".showing1").click(function () {
+    $(".showing1").hide();
+    $("#design").show();
+  });
 
-//   $(".showing").hide();
-
-//   $(".hiding").click(function () {
-//     $("#design").toggle();
-//   });
-
-//   $("#btn2").click(function () {
-//     $("#p2").toggle();
-//   });
-
-//   $("#btn2").click(function () {
-//     $("#p2").toggle();
-//   });
-// }); 
-// $(document).ready(function () {
-//   $("#dev_icon").click(function () {
-//     $("#dev_icon").slideDown('1500').hide('1000');
-//     $("#development").show('1500');
-//   });
-//   $("#development").click(function () {
-//     $("#development").slideUp('1500');
-//     $("#dev_icon").slideDown('1500');
-//   });
-//   $(document).ready(function () {
-//     $("#design-icon").click(function () {
-//       $("#design-icon").slideDown('1500').hide('1000');
-//       $("#design").show('1500');
-//     });
-//     $("#design").click(function () {
-//       $("#design").slideUp('1500');
-//       $("#design-icon").slideDown('1500');
-//     });
-//   });
-//   $(document).ready(function () {
-//     $("#product_icon").click(function () {
-//       $("#product_icon").slideDown('1500').hide('1000');
-//       $("#product").show('1500');
-//     });
-//     $("#product").click(function () {
-//       $("#product").slideUp('1500');
-//       $("#product_icon").slideDown('1500');
-//     });
-//   });
-  $(document).ready(function () {
-    $("#pic1").mouseover(function () {
-      $("#1").show();
-    }).mouseout(function () {
-      $("#1").hide();
-    });
+$(document).ready(function () {
+  $("#pic1").mouseenter(function () {
+    $("#pic1").fadeOut();
+    $("#1").fadeIn();
+  }).mouseleave(function () {
+    $("#1").fadeOut();
+    $("#pic1").fadeIn();
   });
-  $(document).ready(function () {
-    $("#pic2").mouseover(function () {
-      $("#2").show();
-    }).mouseout(function () {
-      $("#2").hide();
-    });
-  });
-  $(document).ready(function () {
-    $("#pic3").mouseover(function () {
-      $("#3").show();
-    }).mouseout(function () {
-      $("#3").hide();
-    });
-  });
-  $(document).ready(function () {
-    $("#pic4").mouseover(function () {
-      $("#4").show();
-    }).mouseout(function () {
-      $("#4").hide();
-    });
-  });
-  $(document).ready(function () {
-    $("#pic5").mouseover(function () {
-      $("#5").show();
-    }).mouseout(function () {
-      $("#5").hide();
-    });
-    $("#pic6").mouseover(function () {
-      $("#6").show();
-    }).mouseout(function () {
-      $("#6").hide();
-    });
-    $("#pic7").mouseover(function () {
-      $("#7").show();
-    }).mouseout(function () {
-      $("#7").hide();
-    });
-    $("#pic8").mouseover(function () {
-      $("#8").show();
-    }).mouseout(function () {
-      $("#8").hide();
-    });
-  });
+});
+$(document).ready(function() {
+  $("#pic2").mouseover(function() {
+    $("#pic2").fadeOut()
+    $("#2").fadeIn();
+  }).mouseleave(function  () {
+    $("#2").fadeOut();
+    $("#pic2").fadeIn ();
+  })
+});
+$(document).ready(function() {
+  $("#pic3").mouseover(function() {
+    $("#pic3").fadeOut()
+    $("#3").fadeIn();
+  }).mouseleave(function  () {
+    $("#3").fadeOut();
+    $("#pic3").fadeIn ();
+  })
+});
+$(document).ready(function() {
+  $("#pic4").mouseover(function() {
+    $("#pic4").fadeOut()
+    $("#4").fadeIn();
+  }).mouseleave(function  () {
+    $("#4").fadeOut();
+    $("#pic4").fadeIn ();
+  })
+});
+$(document).ready(function() {
+  $("#pic5").mouseover(function() {
+    $("#pic5").fadeOut()
+    $("#5").fadeIn();
+  }).mouseleave(function  () {
+    $("#5").fadeOut();
+    $("#pic5").fadeIn ();
+  })
+});
+$(document).ready(function() {
+  $("#pic6").mouseover(function() {
+    $("#pic6").fadeOut()
+    $("#6").fadeIn();
+  }).mouseleave(function  () {
+    $("#6").fadeOut();
+    $("#pic6").fadeIn ();
+  })
+});
+$(document).ready(function() {
+  $("#pic7").mouseover(function() {
+    $("#pic7").fadeOut()
+    $("#7").fadeIn();
+  }).mouseleave(function  () {
+    $("#7").fadeOut();
+    $("#pic7").fadeIn ();
+  })
+});
+$(document).ready(function() {
+  $("#pic8").mouseover(function() {
+    $("#pic8").fadeOut(slow)
+    $("#8").fadeIn(slow);
+  }).mouseleave(function  () {
+    $("#8").fadeOut(slow);
+    $("#pic8").fadeIn (slow);
+  })
+});
+event.preventDefault();
