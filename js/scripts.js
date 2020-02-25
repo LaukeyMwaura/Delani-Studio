@@ -23,13 +23,13 @@ $(document).ready(function () {
     $(".showing3").fadeOut();
     $(".pro").fadeIn();
   });
+  function submit(name) {
+    var name = document.getElementById("left").value;
+    if (name === "") {
+      alert("Invalid input.Please enter you name correctly");
+    }
+    else {
+      alert(name + ", Thank you message received!😁")
+    }
+  }
 });
-function submit(name) {
-  var name = document.getElementById("left").value;
-  if (name === "") {
-    alert("Invalid input.Please enter you name correctly");
-  }
-  else {
-    alert(name + ", Thank you message received!😁")
-  }
-}
