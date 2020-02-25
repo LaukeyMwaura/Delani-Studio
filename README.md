@@ -1,8 +1,9 @@
-# DELANI STUDIO
-#### This is My profile if you need a web Developer, 17/02/2020
-<a href="https://github.com/LaukeyMwaura/Delani-Studio"></a>
+# DELANI STUDIO😁
 
-<a href="https://laukeymwaura.github.io/Delani-Studio/"></a>
+#### This is My profile if you need a web Developer, 24/02/2020
+"https://github.com/LaukeyMwaura/Delani-Studio"
+
+"https://laukeymwaura.github.io/Delani-Studio/"
 
 ## Description
 Delani Studio is a webpage that is interactive landing page that has been created using HTML CSS and Javascript.Delani is a fictional studio.It has a toogle effect in the icons anda hover effect.It also has an API system to track the response from the users.
