@@ -1,119 +1,108 @@
-body {
-    font-family: 'Simonetta';
-}
-
-.part1 {
-    background-image: url("../img/h_img.jpg");
-    text-align: center;
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 120px;
-    padding-left: 80px;
-    padding-bottom: 3%;
-    margin-left: -90px;
-    margin-right: -100px;
-}
-
-#click {
-    padding-bottom: 100px;
-}
-
-.About {
-    text-align: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 30px;
-    padding-bottom: 3%;
-    margin-left: -90px;
-    margin-right: -100px;
-}
-
-.Services {
-    background-image: url("../img/s_image.jpg");
-    text-align: center;
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 30px;
-    padding-bottom: 3%;
-    margin-left: -90px;
-    margin-right: -100px;
-}
-
-#head {
-    text-align: center;
-    float: all;
-    padding-top: 30px;
-}
-
-.part1 {
-    padding-right: 100px;
-}
-
-.last {
-    background-image: url(../img/c_image.jpg);
-    text-align: center;
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 30px;
-    padding-bottom: 3%;
-    margin-left: -90px;
-    margin-right: -100px;
-}
-
-.form-group {
-    background-color: transparent;
-    opacity: 0.5;
-}
-
-.col-sm-3 {
-    margin: 30;
-    display: flex;
-}
-
-.icons {
-    padding-top: 30px;
-    text-align: center;
-}
-
-.date {
-    padding-top: 50px;
-}
-
-.font {
-    font-family: 'Roboto', ;
-    font-family: 'PT Sans', ;
-    size: 6pc;
-}
-
-.text {
-    display: none;
-}
-
-.showing1 {
-    display: none;
-}
-
-.showing2 {
-    display: none;
-}
-
-.showing3 {
-    display: none;
-}
-
-.pic {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotateY(90deg);
-    color: yellow;
-    border: white solid 2px;
-}
-
-.col-sm-3:hover .pic {
-    transform: translate(-50%, -50%) rotateY(0deg);
-    opacity: 10;
-}
+        body {
+            font-family: 'Simonetta';
+        }
+        
+        .part1 {
+            background-image: url("../img/h_img.jpg");
+            text-align: center;
+            color: white;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        
+        #click {
+            padding-bottom: 100px;
+        }
+        
+        .About {
+            text-align: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 30px;
+            padding-bottom: 3%;
+        }
+        
+        .Services {
+            background-image: url("../img/s_image.jpg");
+            text-align: center;
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 30px;
+            padding-bottom: 3%;
+        }
+        
+        #head {
+            text-align: center;
+            float: all;
+            padding-top: 30px;
+        }
+        
+        .part1 {
+            padding-right: 100px;
+        }
+        
+        .last {
+            background-image: url(../img/c_image.jpg);
+            text-align: center;
+            color: white;
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-top: 30px;
+            padding-bottom: 3%;
+        }
+        
+        .form-group {
+            background-color: transparent;
+            opacity: 0.5;
+        }
+        
+        .col-sm-3 {
+            margin: 30;
+            display: flex;
+        }
+        
+        .icons {
+            padding-top: 30px;
+            text-align: center;
+        }
+        
+        .date {
+            padding-top: 50px;
+        }
+        
+        .font {
+            font-family: 'Roboto', ;
+            font-family: 'PT Sans', ;
+            size: 6pc;
+        }
+        
+        .text {
+            display: none;
+        }
+        
+        .showing1 {
+            display: none;
+        }
+        
+        .showing2 {
+            display: none;
+        }
+        
+        .showing3 {
+            display: none;
+        }
+        
+        .pic {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotateY(90deg);
+            color: yellow;
+            border: white solid 2px;
+        }
+        
+        .col-sm-3:hover .pic {
+            transform: translate(-50%, -50%) rotateY(0deg);
+            opacity: 10;
+        }
