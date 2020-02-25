@@ -98,5 +98,6 @@ body{
 }
 .col-sm-3:hover .pic {
 	transform: translate(-50%, -50%) rotateY(0deg);
-	opacity: 1;
+	opacity: 10;
+	
 }

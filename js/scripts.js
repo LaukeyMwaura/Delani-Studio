@@ -1,37 +1,37 @@
 $(document).ready(function () {
   $(".design").click(function () {
-    $(".design").hide();
-    $(".showing1").show();
+    $(".design").fadeOut();
+    $(".showing1").fadeIn();
   });
 });
 $(document).ready(function () {
   $(".showing1").click(function () {
-    $(".showing1").hide();
-    $(".design").show();
+    $(".showing1").fadeOut();
+    $(".design").fadeIn();
   });
 });
 $(document).ready(function () {
   $(".dev").click(function () {
-    $(".dev").hide();
-    $(".showing2").show();
+    $(".dev").fadeOut();
+    $(".showing2").fadeIn();
   });
 });
 $(document).ready(function () {
   $(".showing2").click(function () {
-    $(".showing2").hide();
-    $(".dev").show();
+    $(".showing2").fadeOut();
+    $(".dev").fadeIn();
   });
 });
 $(document).ready(function () {
   $(".pro").click(function () {
-    $(".pro").hide();
-    $(".showing3").show();
+    $(".pro").fadeOut();
+    $(".showing3").fadeIn();
   });
 });
 $(document).ready(function () {
   $(".showing3").click(function () {
-    $(".showing3").hide();
-    $(".pro").show();
+    $(".showing3").fadeOut();
+    $(".pro").fadeIn();
   });
 });
 function submit(name) {
