@@ -11,6 +11,10 @@ Delani Studio is a webpage that is interactive landing page that has been create
 # Author's Information 
 Victor Mburu Mwaura-Lead Web developer
 
+## BDD
+![this is a pictorial representation of the hover function](../img/ss.png)
+
+![This is a pictorial  representation of the on click function](../img/ss.png)
 # Setup instructions 
 1.Fork the repository
 
